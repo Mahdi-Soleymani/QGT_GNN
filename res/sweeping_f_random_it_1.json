@@ -1,0 +1,9743 @@
+{
+    "swept_value": "f",
+    "parameters": {
+        "data": "QGT",
+        "mode": "QGT",
+        "K": 1,
+        "random_init": "none",
+        "transfer": false,
+        "initial_transfer": false,
+        "GD": false,
+        "Att": false,
+        "dropout": 0,
+        "f_input": true,
+        "f": 50,
+        "penalty_inc": false,
+        "penalty_c": 1e-05,
+        "n_partitions": 4,
+        "sparcify": false,
+        "sparcify_p": 0.8,
+        "coarsen": false,
+        "lasso_coef": 1,
+        "lr": 0.001,
+        "epoch": 1,
+        "tol": 0.001,
+        "mapping": "distribution",
+        "boosting_mapping": 1,
+        "logging_path": "./log/QGT.log",
+        "res_path": "./res/",
+        "folder_path": "./data/QGT/",
+        "truth_path": "./data/QGT_truth/",
+        "plot_path": "./res/plots/QGT/",
+        "model_save_path": "./models/QGT/",
+        "model_load_path": "./models/QGT/",
+        "N_realize": 1,
+        "Niter_h": 30,
+        "t": 0.5,
+        "hyper": true,
+        "penalty": 0,
+        "patience": 700,
+        "multi_gpu": 0,
+        "num_gpus": 1,
+        "test_multi_gpu": 0
+    },
+    "n": [
+        100
+    ],
+    "m": [
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78
+    ],
+    "k": [
+        10
+    ],
+    "measurment_type": "random",
+    "n_100m_46k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                15289
+            ]
+        },
+        "10": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                15
+            ],
+            "Final_loss_th": [
+                268
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                268
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                1
+            ],
+            "E": [
+                4
+            ],
+            "E_th": [
+                11
+            ],
+            "FP": [
+                2
+            ],
+            "FP_th": [
+                1
+            ],
+            "FN": [
+                2
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                9
+            ],
+            "Final_loss_th": [
+                259
+            ]
+        },
+        "25": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                9
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                17
+            ],
+            "Final_loss_th": [
+                15289
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                22
+            ],
+            "Final_loss_th": [
+                268
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                268
+            ]
+        },
+        "40": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                25
+            ],
+            "Final_loss_th": [
+                15289
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                4
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                2
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                2
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                15
+            ],
+            "Final_loss_th": [
+                15289
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                268
+            ]
+        }
+    },
+    "n_100m_54k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                302
+            ]
+        },
+        "10": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                19043
+            ]
+        },
+        "15": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                15
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                27
+            ],
+            "Final_loss_th": [
+                19043
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                19043
+            ]
+        },
+        "25": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                11
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                22
+            ],
+            "Final_loss_th": [
+                302
+            ]
+        },
+        "30": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                7
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                17
+            ],
+            "Final_loss_th": [
+                19043
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                24
+            ],
+            "Final_loss_th": [
+                302
+            ]
+        },
+        "40": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                11
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                31
+            ],
+            "Final_loss_th": [
+                302
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                19043
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                302
+            ]
+        }
+    },
+    "n_100m_62k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                7
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                23
+            ],
+            "Final_loss_th": [
+                21260
+            ]
+        },
+        "10": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                11
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                31
+            ],
+            "Final_loss_th": [
+                358
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                21260
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                358
+            ]
+        },
+        "25": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                7
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                23
+            ],
+            "Final_loss_th": [
+                358
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                358
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                32
+            ],
+            "Final_loss_th": [
+                21260
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                358
+            ]
+        },
+        "45": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                9
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                29
+            ],
+            "Final_loss_th": [
+                358
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                21260
+            ]
+        }
+    },
+    "n_100m_30k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                9
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                9
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                10
+            ],
+            "Final_loss_th": [
+                10949
+            ]
+        },
+        "10": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                9
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                5
+            ],
+            "Final_loss_th": [
+                10949
+            ]
+        },
+        "15": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                3
+            ],
+            "Final_loss_th": [
+                10949
+            ]
+        },
+        "20": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                13
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                11
+            ],
+            "Final_loss_th": [
+                10949
+            ]
+        },
+        "25": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                11
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                3
+            ],
+            "Final_loss_th": [
+                10949
+            ]
+        },
+        "30": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                3
+            ],
+            "E": [
+                7
+            ],
+            "E_th": [
+                11
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                2
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                9
+            ],
+            "Final_loss": [
+                4
+            ],
+            "Final_loss_th": [
+                133
+            ]
+        },
+        "35": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                9
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                4
+            ],
+            "Final_loss_th": [
+                153
+            ]
+        },
+        "40": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                7
+            ],
+            "Final_loss_th": [
+                10949
+            ]
+        },
+        "45": {
+            "length": [
+                9
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                3
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                1
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                2
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                3
+            ],
+            "Final_loss_th": [
+                10949
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                6
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                3
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                3
+            ],
+            "Final_loss_th": [
+                10949
+            ]
+        }
+    },
+    "n_100m_70k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                7
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                24
+            ],
+            "Final_loss_th": [
+                20805
+            ]
+        },
+        "10": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                1
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                9
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                9
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                343
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                384
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                20805
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                20805
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                20805
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                20805
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                384
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                384
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                384
+            ]
+        }
+    },
+    "n_100m_22k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                4
+            ],
+            "Final_loss_th": [
+                8011
+            ]
+        },
+        "10": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                97
+            ],
+            "E": [
+                16
+            ],
+            "E_th": [
+                87
+            ],
+            "FP": [
+                9
+            ],
+            "FP_th": [
+                87
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                4
+            ],
+            "Final_loss_th": [
+                7863
+            ]
+        },
+        "15": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                8011
+            ]
+        },
+        "20": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                99
+            ],
+            "E": [
+                15
+            ],
+            "E_th": [
+                89
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                89
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                3
+            ],
+            "Final_loss_th": [
+                7943
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                4
+            ],
+            "Final_loss_th": [
+                8011
+            ]
+        },
+        "30": {
+            "length": [
+                15
+            ],
+            "length_th": [
+                3
+            ],
+            "E": [
+                17
+            ],
+            "E_th": [
+                13
+            ],
+            "FP": [
+                11
+            ],
+            "FP_th": [
+                3
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                5
+            ],
+            "Final_loss_th": [
+                151
+            ]
+        },
+        "35": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                99
+            ],
+            "E": [
+                16
+            ],
+            "E_th": [
+                89
+            ],
+            "FP": [
+                9
+            ],
+            "FP_th": [
+                89
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                2
+            ],
+            "Final_loss_th": [
+                7915
+            ]
+        },
+        "40": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                13
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                2
+            ],
+            "Final_loss_th": [
+                158
+            ]
+        },
+        "45": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                3
+            ],
+            "E": [
+                15
+            ],
+            "E_th": [
+                11
+            ],
+            "FP": [
+                9
+            ],
+            "FP_th": [
+                2
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                9
+            ],
+            "Final_loss": [
+                2
+            ],
+            "Final_loss_th": [
+                128
+            ]
+        },
+        "50": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                6
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                2
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                2
+            ],
+            "Final_loss_th": [
+                8011
+            ]
+        }
+    },
+    "n_100m_52k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                18694
+            ]
+        },
+        "10": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                11
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                23
+            ],
+            "Final_loss_th": [
+                367
+            ]
+        },
+        "15": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                7
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                21
+            ],
+            "Final_loss_th": [
+                18694
+            ]
+        },
+        "20": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                5
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                3
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                2
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                20
+            ],
+            "Final_loss_th": [
+                367
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                23
+            ],
+            "Final_loss_th": [
+                367
+            ]
+        },
+        "30": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                13
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                30
+            ],
+            "Final_loss_th": [
+                18694
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                90
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                84
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                82
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                2
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                15338
+            ]
+        },
+        "40": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                11
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                27
+            ],
+            "Final_loss_th": [
+                367
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                6
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                3
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                21
+            ],
+            "Final_loss_th": [
+                367
+            ]
+        },
+        "50": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                11
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                24
+            ],
+            "Final_loss_th": [
+                18694
+            ]
+        }
+    },
+    "n_100m_40k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                7
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                12
+            ],
+            "Final_loss_th": [
+                14749
+            ]
+        },
+        "10": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                9
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                12
+            ],
+            "Final_loss_th": [
+                14749
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                12
+            ],
+            "Final_loss_th": [
+                14749
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                2
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                1
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                7
+            ],
+            "Final_loss_th": [
+                14749
+            ]
+        },
+        "25": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                13
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                15
+            ],
+            "Final_loss_th": [
+                208
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                52
+            ],
+            "E": [
+                2
+            ],
+            "E_th": [
+                54
+            ],
+            "FP": [
+                1
+            ],
+            "FP_th": [
+                48
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                6
+            ],
+            "Final_loss": [
+                4
+            ],
+            "Final_loss_th": [
+                3804
+            ]
+        },
+        "35": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                11
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                16
+            ],
+            "Final_loss_th": [
+                14749
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                2
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                1
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                4
+            ],
+            "Final_loss_th": [
+                14749
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                208
+            ]
+        },
+        "50": {
+            "length": [
+                9
+            ],
+            "length_th": [
+                94
+            ],
+            "E": [
+                7
+            ],
+            "E_th": [
+                88
+            ],
+            "FP": [
+                3
+            ],
+            "FP_th": [
+                86
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                2
+            ],
+            "Final_loss": [
+                20
+            ],
+            "Final_loss_th": [
+                13310
+            ]
+        }
+    },
+    "n_100m_76k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                388
+            ]
+        },
+        "10": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                2
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                1
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                14
+            ],
+            "Final_loss_th": [
+                24210
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                388
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                24210
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                24210
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                24210
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                24
+            ],
+            "E": [
+                2
+            ],
+            "E_th": [
+                28
+            ],
+            "FP": [
+                1
+            ],
+            "FP_th": [
+                21
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                7
+            ],
+            "Final_loss": [
+                14
+            ],
+            "Final_loss_th": [
+                934
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                58
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                58
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                53
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                5
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                7811
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                2
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                1
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                14
+            ],
+            "Final_loss_th": [
+                24210
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                2
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                1
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                14
+            ],
+            "Final_loss_th": [
+                388
+            ]
+        }
+    },
+    "n_100m_24k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                93
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                83
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                83
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                4
+            ],
+            "Final_loss_th": [
+                8216
+            ]
+        },
+        "10": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                8
+            ],
+            "E": [
+                13
+            ],
+            "E_th": [
+                18
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                8
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                7
+            ],
+            "Final_loss_th": [
+                133
+            ]
+        },
+        "15": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                14
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                5
+            ],
+            "Final_loss_th": [
+                8964
+            ]
+        },
+        "20": {
+            "length": [
+                14
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                16
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                10
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                10
+            ],
+            "Final_loss_th": [
+                8964
+            ]
+        },
+        "25": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                15
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                9
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                162
+            ]
+        },
+        "30": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                80
+            ],
+            "E": [
+                14
+            ],
+            "E_th": [
+                76
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                73
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                3
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                6097
+            ]
+        },
+        "35": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                13
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                162
+            ]
+        },
+        "40": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                18
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                10
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                8
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                5
+            ],
+            "Final_loss_th": [
+                162
+            ]
+        },
+        "45": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                14
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                8964
+            ]
+        },
+        "50": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                98
+            ],
+            "E": [
+                9
+            ],
+            "E_th": [
+                88
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                88
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                4
+            ],
+            "Final_loss_th": [
+                8804
+            ]
+        }
+    },
+    "n_100m_64k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                23219
+            ]
+        },
+        "10": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                23219
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                23219
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                390
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                390
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                23219
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                23219
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                23219
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                23219
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                23219
+            ]
+        }
+    },
+    "n_100m_36k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                10
+            ],
+            "Final_loss_th": [
+                173
+            ]
+        },
+        "10": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                61
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                55
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                53
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                2
+            ],
+            "Final_loss": [
+                10
+            ],
+            "Final_loss_th": [
+                4933
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                10
+            ],
+            "Final_loss_th": [
+                173
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                2
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                1
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                5
+            ],
+            "Final_loss_th": [
+                12298
+            ]
+        },
+        "25": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                9
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                9
+            ],
+            "Final_loss_th": [
+                12298
+            ]
+        },
+        "30": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                16
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                9
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                11
+            ],
+            "Final_loss_th": [
+                12298
+            ]
+        },
+        "35": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                14
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                12
+            ],
+            "Final_loss_th": [
+                12298
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                16
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                8
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                9
+            ],
+            "Final_loss_th": [
+                173
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                92
+            ],
+            "E": [
+                2
+            ],
+            "E_th": [
+                84
+            ],
+            "FP": [
+                1
+            ],
+            "FP_th": [
+                83
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                1
+            ],
+            "Final_loss": [
+                5
+            ],
+            "Final_loss_th": [
+                10601
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                11
+            ],
+            "Final_loss_th": [
+                12298
+            ]
+        }
+    },
+    "n_100m_58k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                315
+            ]
+        },
+        "10": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                18982
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                18982
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                18982
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                315
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                315
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                2
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                1
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                10
+            ],
+            "Final_loss_th": [
+                18982
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                315
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                18982
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                18982
+            ]
+        }
+    },
+    "n_100m_28k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                17
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                10
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                7
+            ],
+            "Final_loss_th": [
+                9879
+            ]
+        },
+        "10": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                15
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                9879
+            ]
+        },
+        "15": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                14
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                9879
+            ]
+        },
+        "20": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                15
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                9
+            ],
+            "Final_loss_th": [
+                168
+            ]
+        },
+        "25": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                99
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                89
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                89
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                5
+            ],
+            "Final_loss_th": [
+                9854
+            ]
+        },
+        "30": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                14
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                5
+            ],
+            "Final_loss_th": [
+                9879
+            ]
+        },
+        "35": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                1
+            ],
+            "E": [
+                9
+            ],
+            "E_th": [
+                11
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                1
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                8
+            ],
+            "Final_loss_th": [
+                166
+            ]
+        },
+        "40": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                17
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                9
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                8
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                10
+            ],
+            "Final_loss_th": [
+                9879
+            ]
+        },
+        "45": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                14
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                9879
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                99
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                89
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                89
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                9811
+            ]
+        }
+    },
+    "n_100m_68k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                318
+            ]
+        },
+        "10": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                15
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                45
+            ],
+            "Final_loss_th": [
+                25896
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                91
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                83
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                82
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                1
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                21300
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                4
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                2
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                2
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                21
+            ],
+            "Final_loss_th": [
+                25896
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                2
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                1
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                12
+            ],
+            "Final_loss_th": [
+                25896
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                25896
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                318
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                318
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                41
+            ],
+            "Final_loss_th": [
+                25896
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                2
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                1
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                14
+            ],
+            "Final_loss_th": [
+                25896
+            ]
+        }
+    },
+    "n_100m_78k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                27271
+            ]
+        },
+        "10": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                27271
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                2
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                12
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                2
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                372
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                4
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                14
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                4
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                292
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                440
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                27271
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                440
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                2
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                12
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                2
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                374
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                440
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                27271
+            ]
+        }
+    },
+    "n_100m_38k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                10
+            ],
+            "Final_loss_th": [
+                238
+            ]
+        },
+        "10": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                11
+            ],
+            "Final_loss_th": [
+                238
+            ]
+        },
+        "15": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                6
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                2
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                8
+            ],
+            "Final_loss_th": [
+                12593
+            ]
+        },
+        "20": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                16
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                9
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                22
+            ],
+            "Final_loss_th": [
+                238
+            ]
+        },
+        "25": {
+            "length": [
+                15
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                19
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                12
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                15
+            ],
+            "Final_loss_th": [
+                238
+            ]
+        },
+        "30": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                15
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                9
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                10
+            ],
+            "Final_loss_th": [
+                12593
+            ]
+        },
+        "35": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                15
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                9
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                15
+            ],
+            "Final_loss_th": [
+                238
+            ]
+        },
+        "40": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                13
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                10
+            ],
+            "Final_loss_th": [
+                238
+            ]
+        },
+        "45": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                16
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                9
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                17
+            ],
+            "Final_loss_th": [
+                12593
+            ]
+        },
+        "50": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                71
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                65
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                63
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                2
+            ],
+            "Final_loss": [
+                11
+            ],
+            "Final_loss_th": [
+                6297
+            ]
+        }
+    },
+    "n_100m_48k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                6
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                2
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                13
+            ],
+            "Final_loss_th": [
+                16467
+            ]
+        },
+        "10": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                4
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                3
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                16467
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                338
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                4
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                2
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                2
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                13
+            ],
+            "Final_loss_th": [
+                16467
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                16467
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                16467
+            ]
+        },
+        "35": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                16
+            ],
+            "E": [
+                15
+            ],
+            "E_th": [
+                22
+            ],
+            "FP": [
+                9
+            ],
+            "FP_th": [
+                14
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                8
+            ],
+            "Final_loss": [
+                28
+            ],
+            "Final_loss_th": [
+                275
+            ]
+        },
+        "40": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                4
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                3
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                338
+            ]
+        },
+        "45": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                4
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                3
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                338
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                16467
+            ]
+        }
+    },
+    "n_100m_50k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                16918
+            ]
+        },
+        "10": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                16918
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                273
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                16
+            ],
+            "Final_loss_th": [
+                273
+            ]
+        },
+        "25": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                15
+            ],
+            "E": [
+                3
+            ],
+            "E_th": [
+                21
+            ],
+            "FP": [
+                2
+            ],
+            "FP_th": [
+                13
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                8
+            ],
+            "Final_loss": [
+                12
+            ],
+            "Final_loss_th": [
+                249
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                4
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                2
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                2
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                15
+            ],
+            "Final_loss_th": [
+                16918
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                53
+            ],
+            "E": [
+                6
+            ],
+            "E_th": [
+                51
+            ],
+            "FP": [
+                3
+            ],
+            "FP_th": [
+                47
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                4
+            ],
+            "Final_loss": [
+                23
+            ],
+            "Final_loss_th": [
+                4473
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                16918
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                16918
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                273
+            ]
+        }
+    },
+    "n_100m_42k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                19
+            ],
+            "Final_loss_th": [
+                240
+            ]
+        },
+        "10": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                13479
+            ]
+        },
+        "15": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                9
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                13
+            ],
+            "Final_loss_th": [
+                13479
+            ]
+        },
+        "20": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                9
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                17
+            ],
+            "Final_loss_th": [
+                240
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                13479
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                13479
+            ]
+        },
+        "35": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                6
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                2
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                13
+            ],
+            "Final_loss_th": [
+                13479
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                68
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                64
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                61
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                3
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                5967
+            ]
+        },
+        "45": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                12
+            ],
+            "Final_loss_th": [
+                13479
+            ]
+        },
+        "50": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                11
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                19
+            ],
+            "Final_loss_th": [
+                240
+            ]
+        }
+    },
+    "n_100m_26k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                6
+            ],
+            "E": [
+                11
+            ],
+            "E_th": [
+                16
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                6
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                5
+            ],
+            "Final_loss_th": [
+                152
+            ]
+        },
+        "10": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                79
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                77
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                73
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                4
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                5146
+            ]
+        },
+        "15": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                13
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                141
+            ]
+        },
+        "20": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                7
+            ],
+            "Final_loss_th": [
+                141
+            ]
+        },
+        "25": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                4
+            ],
+            "Final_loss_th": [
+                7708
+            ]
+        },
+        "30": {
+            "length": [
+                14
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                141
+            ]
+        },
+        "35": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                10
+            ],
+            "Final_loss_th": [
+                141
+            ]
+        },
+        "40": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                17
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                10
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                7
+            ],
+            "Final_loss_th": [
+                141
+            ]
+        },
+        "45": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                99
+            ],
+            "E": [
+                9
+            ],
+            "E_th": [
+                89
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                89
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                7
+            ],
+            "Final_loss_th": [
+                7667
+            ]
+        },
+        "50": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                9
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                4
+            ],
+            "Final_loss_th": [
+                141
+            ]
+        }
+    },
+    "n_100m_74k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                24931
+            ]
+        },
+        "10": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                493
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                24931
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                493
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                24931
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                24931
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                493
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                493
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                24931
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                24931
+            ]
+        }
+    },
+    "n_100m_34k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                9979
+            ]
+        },
+        "10": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                3
+            ],
+            "E": [
+                5
+            ],
+            "E_th": [
+                13
+            ],
+            "FP": [
+                3
+            ],
+            "FP_th": [
+                3
+            ],
+            "FN": [
+                2
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                7
+            ],
+            "Final_loss_th": [
+                179
+            ]
+        },
+        "15": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                15
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                11
+            ],
+            "Final_loss_th": [
+                9979
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                1
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                11
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                1
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                183
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                96
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                88
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                87
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                1
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                9421
+            ]
+        },
+        "30": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                45
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                41
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                38
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                3
+            ],
+            "Final_loss": [
+                7
+            ],
+            "Final_loss_th": [
+                1945
+            ]
+        },
+        "35": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                13
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                12
+            ],
+            "Final_loss_th": [
+                199
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                89
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                79
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                79
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                8467
+            ]
+        },
+        "45": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                10
+            ],
+            "Final_loss_th": [
+                9979
+            ]
+        },
+        "50": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                17
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                10
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                12
+            ],
+            "Final_loss_th": [
+                9979
+            ]
+        }
+    },
+    "n_100m_66k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                22001
+            ]
+        },
+        "10": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                11
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                36
+            ],
+            "Final_loss_th": [
+                22001
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                22001
+            ]
+        },
+        "20": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                14
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                44
+            ],
+            "Final_loss_th": [
+                466
+            ]
+        },
+        "25": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                34
+            ],
+            "Final_loss_th": [
+                466
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                79
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                75
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                72
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                3
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                13867
+            ]
+        },
+        "35": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                7
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                26
+            ],
+            "Final_loss_th": [
+                22001
+            ]
+        },
+        "40": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                26
+            ],
+            "Final_loss_th": [
+                22001
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                2
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                1
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                13
+            ],
+            "Final_loss_th": [
+                466
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                466
+            ]
+        }
+    },
+    "n_100m_44k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                88
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                80
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                79
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                1
+            ],
+            "Final_loss": [
+                19
+            ],
+            "Final_loss_th": [
+                12259
+            ]
+        },
+        "10": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                15649
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                15
+            ],
+            "Final_loss_th": [
+                243
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                15649
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                15
+            ],
+            "Final_loss_th": [
+                243
+            ]
+        },
+        "30": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                13
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                16
+            ],
+            "Final_loss_th": [
+                243
+            ]
+        },
+        "35": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                16
+            ],
+            "Final_loss_th": [
+                243
+            ]
+        },
+        "40": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                5
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                3
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                2
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                10
+            ],
+            "Final_loss_th": [
+                243
+            ]
+        },
+        "45": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                20
+            ],
+            "E": [
+                7
+            ],
+            "E_th": [
+                26
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                18
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                8
+            ],
+            "Final_loss": [
+                15
+            ],
+            "Final_loss_th": [
+                455
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                12
+            ],
+            "Final_loss_th": [
+                15649
+            ]
+        }
+    },
+    "n_100m_56k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                6
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                3
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                3
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                19
+            ],
+            "Final_loss_th": [
+                21256
+            ]
+        },
+        "10": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                3
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                2
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                1
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                14
+            ],
+            "Final_loss_th": [
+                387
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                387
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                387
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                28
+            ],
+            "Final_loss_th": [
+                387
+            ]
+        },
+        "30": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                31
+            ],
+            "Final_loss_th": [
+                387
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                22
+            ],
+            "Final_loss_th": [
+                387
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                387
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                387
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                21256
+            ]
+        }
+    },
+    "n_100m_32k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                16
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                9
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                8
+            ],
+            "Final_loss_th": [
+                168
+            ]
+        },
+        "10": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                17
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                10
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                7
+            ],
+            "Final_loss_th": [
+                168
+            ]
+        },
+        "15": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                45
+            ],
+            "E": [
+                14
+            ],
+            "E_th": [
+                45
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                40
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                5
+            ],
+            "Final_loss": [
+                7
+            ],
+            "Final_loss_th": [
+                1957
+            ]
+        },
+        "20": {
+            "length": [
+                14
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                18
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                11
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                7
+            ],
+            "Final_loss_th": [
+                11323
+            ]
+        },
+        "25": {
+            "length": [
+                15
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                15
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                10
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                6
+            ],
+            "Final_loss_th": [
+                11323
+            ]
+        },
+        "30": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                1
+            ],
+            "E": [
+                19
+            ],
+            "E_th": [
+                11
+            ],
+            "FP": [
+                11
+            ],
+            "FP_th": [
+                1
+            ],
+            "FN": [
+                8
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                8
+            ],
+            "Final_loss_th": [
+                160
+            ]
+        },
+        "35": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                14
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                8
+            ],
+            "Final_loss_th": [
+                11323
+            ]
+        },
+        "40": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                80
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                70
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                70
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                8
+            ],
+            "Final_loss_th": [
+                7227
+            ]
+        },
+        "45": {
+            "length": [
+                14
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                20
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                12
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                8
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                11
+            ],
+            "Final_loss_th": [
+                11323
+            ]
+        },
+        "50": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                19
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                11
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                8
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                9
+            ],
+            "Final_loss_th": [
+                11323
+            ]
+        }
+    },
+    "n_100m_60k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                8
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                4
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                4
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                20
+            ],
+            "Final_loss_th": [
+                242
+            ]
+        },
+        "10": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                19835
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                18
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                22
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                15
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                7
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                495
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                66
+            ],
+            "E": [
+                10
+            ],
+            "E_th": [
+                60
+            ],
+            "FP": [
+                5
+            ],
+            "FP_th": [
+                58
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                2
+            ],
+            "Final_loss": [
+                27
+            ],
+            "Final_loss_th": [
+                8206
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                242
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                19835
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                242
+            ]
+        },
+        "40": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                242
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                19835
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                19835
+            ]
+        }
+    },
+    "n_100m_20k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                27
+            ],
+            "E": [
+                20
+            ],
+            "E_th": [
+                27
+            ],
+            "FP": [
+                11
+            ],
+            "FP_th": [
+                22
+            ],
+            "FN": [
+                9
+            ],
+            "FN_th": [
+                5
+            ],
+            "Final_loss": [
+                1
+            ],
+            "Final_loss_th": [
+                544
+            ]
+        },
+        "10": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                13
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                6864
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                16
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                8
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                1
+            ],
+            "Final_loss_th": [
+                77
+            ]
+        },
+        "20": {
+            "length": [
+                9
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                13
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                2
+            ],
+            "Final_loss_th": [
+                77
+            ]
+        },
+        "25": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                17
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                9
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                8
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                2
+            ],
+            "Final_loss_th": [
+                6864
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                86
+            ],
+            "E": [
+                16
+            ],
+            "E_th": [
+                78
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                77
+            ],
+            "FN": [
+                8
+            ],
+            "FN_th": [
+                1
+            ],
+            "Final_loss": [
+                1
+            ],
+            "Final_loss_th": [
+                5478
+            ]
+        },
+        "35": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                99
+            ],
+            "E": [
+                15
+            ],
+            "E_th": [
+                91
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                1
+            ],
+            "Final_loss": [
+                1
+            ],
+            "Final_loss_th": [
+                6813
+            ]
+        },
+        "40": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                10
+            ],
+            "E": [
+                15
+            ],
+            "E_th": [
+                16
+            ],
+            "FP": [
+                8
+            ],
+            "FP_th": [
+                8
+            ],
+            "FN": [
+                7
+            ],
+            "FN_th": [
+                8
+            ],
+            "Final_loss": [
+                1
+            ],
+            "Final_loss_th": [
+                90
+            ]
+        },
+        "45": {
+            "length": [
+                12
+            ],
+            "length_th": [
+                1
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                9
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                5
+            ],
+            "FN_th": [
+                9
+            ],
+            "Final_loss": [
+                2
+            ],
+            "Final_loss_th": [
+                74
+            ]
+        },
+        "50": {
+            "length": [
+                13
+            ],
+            "length_th": [
+                99
+            ],
+            "E": [
+                21
+            ],
+            "E_th": [
+                89
+            ],
+            "FP": [
+                12
+            ],
+            "FP_th": [
+                89
+            ],
+            "FN": [
+                9
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                4
+            ],
+            "Final_loss_th": [
+                6767
+            ]
+        }
+    },
+    "n_100m_72k_10p_0.2.txt": {
+        "5": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                356
+            ]
+        },
+        "10": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                356
+            ]
+        },
+        "15": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                23681
+            ]
+        },
+        "20": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                356
+            ]
+        },
+        "25": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                82
+            ],
+            "E": [
+                4
+            ],
+            "E_th": [
+                76
+            ],
+            "FP": [
+                2
+            ],
+            "FP_th": [
+                74
+            ],
+            "FN": [
+                2
+            ],
+            "FN_th": [
+                2
+            ],
+            "Final_loss": [
+                26
+            ],
+            "Final_loss_th": [
+                15758
+            ]
+        },
+        "30": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                356
+            ]
+        },
+        "35": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                356
+            ]
+        },
+        "40": {
+            "length": [
+                11
+            ],
+            "length_th": [
+                0
+            ],
+            "E": [
+                13
+            ],
+            "E_th": [
+                10
+            ],
+            "FP": [
+                7
+            ],
+            "FP_th": [
+                0
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                10
+            ],
+            "Final_loss": [
+                47
+            ],
+            "Final_loss_th": [
+                356
+            ]
+        },
+        "45": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                12
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                6
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                6
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                48
+            ],
+            "Final_loss_th": [
+                23681
+            ]
+        },
+        "50": {
+            "length": [
+                10
+            ],
+            "length_th": [
+                100
+            ],
+            "E": [
+                0
+            ],
+            "E_th": [
+                90
+            ],
+            "FP": [
+                0
+            ],
+            "FP_th": [
+                90
+            ],
+            "FN": [
+                0
+            ],
+            "FN_th": [
+                0
+            ],
+            "Final_loss": [
+                0
+            ],
+            "Final_loss_th": [
+                23681
+            ]
+        }
+    }
+}

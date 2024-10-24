@@ -1,0 +1,17 @@
+numpy == 1.22.3
+h5py == 3.6.0
+networkx
+pandas
+dgl
+scipy
+sklearn
+json
+matplotlib
+tqdm
+timeit
+os
+logging
+itertools
+random
+pickle
+time
